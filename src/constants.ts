@@ -1,0 +1,5 @@
+export const SPECIFIC_TEXTS = {
+    INTRO_MESSAGE: "Desenvolvedor Full-Stack altamente motivado e orientado a resultados com mais de 2 anos de experiência especializado em TypeScript, JavaScript, React, React Native, Node, Nest, .NET e Spring. Focando em Back-End usando Node e Nest. Ansioso por aproveitar a expertise em construção de aplicativos da web fáceis de usar enquanto colabora em um ambiente orientado para o crescimento.\n" +
+        "\n" +
+        "Também estou trabalhando como desenvolvedor mobile em um projeto da minha universidade (UNESP) desenvolvendo um aplicativo para divulgação de projetos de extensão utilizando React Native e em vez de fazer utilizando o FireBase (BaaS), estamos agora implementando o NestJS com TypeScript para o Backend, utilizando tópicos como: Autenticação de usuário, API Rest, Arquitetura Monolítica, Design Patterns entre outras coisas.",
+};
