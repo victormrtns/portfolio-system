@@ -1,5 +1,3 @@
-"use client"
-
 import React, { useState } from "react"
 import { motion, useAnimationControls } from "framer-motion"
 import { Github, Linkedin } from "lucide-react"
@@ -16,12 +14,12 @@ export const HeroSection = React.forwardRef<HTMLDivElement>((_, ref) => {
         {
             name: "GitHub",
             icon: Github,
-            url: "https://github.com/yourusername",
+            url: "https://github.com/victormrtns",
         },
         {
             name: "LinkedIn",
             icon: Linkedin,
-            url: "https://linkedin.com/in/yourusername",
+            url: "https://www.linkedin.com/in/victor-hugo-a847b21b7/",
         },
     ]
 

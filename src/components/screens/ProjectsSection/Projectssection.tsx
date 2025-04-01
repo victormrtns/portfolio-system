@@ -115,7 +115,7 @@ export const ProjectsSection = React.forwardRef<HTMLDivElement>((_, ref) => {
         <section
             ref={ref}
             id="projects"
-            className="min-h-screen flex items-center py-24 bg-gradient-to-b from-background to-muted/50"
+            className="min-h-screen flex items-center py-24"
         >
             <div className="container px-4 mx-auto">
                 <motion.div

@@ -4,6 +4,18 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 
 const technologies = [
     {
+        name: "Swift",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+        description: "iOS Development",
+        gradient: "from-[#F05138]/20 to-[#F05138]/5",
+    },
+    {
+        name: "SwiftUI",
+        icon: "https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png",
+        description: "iOS UI Framework",
+        gradient: "from-[#0055FF]/20 to-[#0055FF]/5",
+    },
+    {
         name: "React",
         icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
         description: "Web Development",
@@ -102,7 +114,7 @@ export const StackSection = React.forwardRef<HTMLDivElement>((_, ref) => {
         <section
             ref={ref}
             id="stack"
-            className="min-h-screen flex items-center bg-gradient-to-b from-muted/50 to-background"
+            className="min-h-screen flex items-center"
         >
             <div className="w-full space-y-12">
                 <div className="text-center space-y-4">
