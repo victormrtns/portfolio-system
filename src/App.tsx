@@ -3,7 +3,7 @@ import Homepage from "@/components/screens/HomePage/Homepage.tsx";
 
 function App() {
   return (
-      <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+      <ThemeProvider defaultTheme="system">
           <Homepage />
       </ThemeProvider>
   )

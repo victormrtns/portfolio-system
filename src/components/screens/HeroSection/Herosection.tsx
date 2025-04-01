@@ -59,7 +59,7 @@ export const HeroSection = React.forwardRef<HTMLDivElement>((_, ref) => {
             transition: {
                 duration: 0.5,
                 repeat: Number.POSITIVE_INFINITY,
-                repeatType: "reverse",
+                repeatType: "reverse" as const,
             },
         },
     }

@@ -2,10 +2,6 @@ import React from "react"
 import { motion } from "framer-motion"
 import { Smartphone, Zap, Target, Briefcase } from "lucide-react"
 
-interface AboutSectionProps {
-    ref: (element: HTMLDivElement | null) => void
-}
-
 export const AboutSection = React.forwardRef<HTMLDivElement>((_, ref) => {
     const fadeInUp = {
         hidden: { opacity: 0, y: 20 },

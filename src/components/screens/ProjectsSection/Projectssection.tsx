@@ -139,7 +139,7 @@ export const ProjectsSection = React.forwardRef<HTMLDivElement>((_, ref) => {
                     </div>
 
                     <div className="grid gap-8 md:grid-cols-2">
-                        {projects.map((project, index) => (
+                        {projects.map((project) => (
                             <motion.div
                                 key={project.title}
                                 variants={projectVariants}
